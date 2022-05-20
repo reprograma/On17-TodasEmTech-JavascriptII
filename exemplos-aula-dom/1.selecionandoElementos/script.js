@@ -51,6 +51,7 @@ const form = document.querySelector(".primeiro-form");
     paragrafoNovo.innerText = `A Luísa Sonza é ${valorInput1} e ${valorInput2}`;
     //segundaDiv.appendChild(paragrafoNovo);
     document.body.append(paragrafoNovo);
+    
  });
 
  
@@ -64,8 +65,12 @@ const form = document.querySelector(".primeiro-form");
     
     imagemLuisaSonza.addEventListener("mouseenter", eventoImagemDiminui);
     imagemLuisaSonza.addEventListener("mouseleave", eventoImagemAumenta);
+    
+    const inputRoxo = document.querySelector(".fica-roxo");
+    inputRoxo.classList.remove("fica-roxo");
+    inputRoxo.classList.add("muda-fonte");
 
- 
+
 
 
 

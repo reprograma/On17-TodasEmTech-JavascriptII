@@ -23,14 +23,36 @@
         <div class="primeira-div">
         </div> 
         <form class="primeiro-form">
-            <label>Luiza Sonza me lembra:</label>
+            <label class="fica-roxo">Luiza Sonza me lembra:</label>
             <input id="input1" type="text"/>
             <label>E isso:</label>
             <input id="input2" type="text"/>
-            <button id="botao-submit" type="submit">Enviar!</button>
+            <button onclick=criaDivVermelha() id="botao-submit" type="submit">Enviar!</button>
         </form>     
         <div class="segunda-div">
 
         </div>
+        <script>
+            const criaDivVermelha = () => {
+                const novaDiv = document.createElement("div");
+                novaDiv.style.width = "300px";
+                novaDiv.style.height = "300px";
+                novaDiv.style.backgroundColor = "red";
+                document.body.append(novaDiv);
+
+            }
+
+        
+        </script>
+        <style>
+            .fica-roxo{
+                background-color: blueviolet;
+            }
+
+            .muda-fonte{
+                font-size: 50px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        </style>
     </body>
 </html>
