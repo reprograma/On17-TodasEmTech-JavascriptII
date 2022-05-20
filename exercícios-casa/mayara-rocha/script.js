@@ -82,6 +82,7 @@ botaoSubmit.addEventListener('click', (evento) => {
 });
 
 
+
 const rodape = document.querySelector(".rodape");
 
 
