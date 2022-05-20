@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body{
+  background-color: rgb(239, 235, 235);
+}
+
+.article_noticias{
+
+  height: 100vh;
+}
+
+.div_article{
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  align-items: center;
+}
+
+h1,h2{
+  
+  padding: 1rem 0;
+}
+p{
+  text-align: center;
+  margin: 1rem 0px;
+}
+
+.article_img{
+  width: 60vw;
+  height: 60vh;
+  margin: 1rem 0px;
+}
