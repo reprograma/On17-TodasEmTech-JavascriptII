@@ -1,3 +1,6 @@
+//Crie uma página web com 5 elementos diferentes à sua escolha (h1, p, div, form, etc).
+
+
 //let headerPrincipal = document.getElementById("header1"); ou
 const headerPrincipal = document.querySelector("#header1");
  const tituloPrincipal = document.querySelector(".titulo-principal"); 
@@ -17,10 +20,14 @@ const primeiraDiv = document.querySelector(".primeira-div");
 const imagemGato = document.createElement("img");
 imagemGato.setAttribute('src', "https://uploads.spiritfanfiction.com/historias/capas/202107/o-pequeno-gato-de-tweek-22620876-070720210224.jpg");
 imagemGato.setAttribute('alt', "gatinho filhote");
-primeiraDiv.appendChild(imagemGato); //anexa o arquivo
+primeiraDiv.appendChild(imagemGato);// Escolha 2 elementos que um que será removido e um adicionado pelo DOM.
 imagemGato.style.width ="480px";
-//headerPrincipal.removeChild(tituloPrincipal); remove o elemento mãe
+imagemGato.style.border = "1px solid purple";
+imagemGato.style.margin = "20vh";
 
+headerPrincipal.removeChild(tituloPrincipal);//Escolha 2 elementos que um que será removido e um adicionado pelo DOM.
+
+imagemGato.textContent += "Olá sumiu o gato"
 const input1 = document.querySelector("#input1");
 const input2 = document.querySelector("#input2");
 
@@ -29,7 +36,7 @@ console.log(input1);
 console.log(input2);
 
 
-
+//o 5o elemento deverá ser filho do 4o, utilize algum método relacional do DOM para alterar algum atributo CSS desse filho e desse pai.
 const formulario = document.querySelector("fieldset");
 formulario.style.width = "50%";
 
@@ -46,7 +53,7 @@ const valorInput2 = input2.value;
 });
 
 
-
+//Adicione algum evento ao 3o elemento. Esse evento deverá ser visível ao usuário.
 function eventoImagemDiminui(){
   imagemGato.style.width = "50px";
 };
