@@ -19,13 +19,12 @@ subtitulo.style.color = "#B8C8C8";
 const partePrincipal = document.querySelector("#parte-principal");
 partePrincipal.style.padding = "0 100px";
 
-const paragrafos = document.querySelectorAll("p");
-paragrafos.forEach((paragrafo) => {
-  paragrafo.setAttribute("class", "paragrafo");
-});
+const paragrafo = document.querySelector("p");
+paragrafo.setAttribute("class", "paragrafo");
 
 const imagemAnne = document.querySelector("#imagem");
-imagemAnne.style.textAlign = "center";
+imagemAnne.style.display = "block";
+imagemAnne.style.margin = "20px auto";
 
 const buttonTrailer = document.querySelector("#button-trailer");
 buttonTrailer.style.border = "solid 1px";
@@ -46,3 +45,12 @@ footer.style.color = "#963E41";
 footer.style.textAlign = "center";
 footer.style.padding = "10px 0";
 footer.style.fontSize = "14px";
+
+// Exercicio 2
+const artigo = document.querySelector("article");
+const pae = artigo.parentElement.nodeName;
+console.log("O pai/mae do artigo é um elemento", pae);
+const filhes = artigo.children;
+console.log("Os filhes do artigo são:", filhes);
+const irmao = paragrafo.nextElementSibling.nodeName;
+console.log("O próximo irmão do parágrafo é um elemento", irmao);
