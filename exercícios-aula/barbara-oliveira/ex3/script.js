@@ -1,23 +1,23 @@
-let div = document.querySelector(".container");
-let formulario = document.querySelector(".formulario");
-let labels = document.querySelectorAll("label");
-let inputs = document.querySelectorAll("input");
-let buttonSubmit = document.querySelector(".buttonSubmit");
+const div = document.querySelector(".container");
+const form = document.querySelector(".form");
+const labels = document.querySelectorAll("label");
+const inputs = document.querySelectorAll("input");
+const buttonSubmit = document.querySelector(".buttonSubmit");
 
 div.style.display = "flex";
 div.style.flexDirection = "column";
 div.style.justifyContent = "center";
 
-formulario.style.width = "900px";
-formulario.style.height = "350px";
-formulario.style.display = "flex";
-formulario.style.flexDirection = "column";
-formulario.style.justifyContent = "center";
-formulario.style.margin = "100px auto";
-formulario.style.padding = "0 50px";
-formulario.style.color = "#F0F7EE";
-formulario.style.backgroundColor = "black";
-formulario.style.border = "1px solid #EE3A57";
+form.style.width = "900px";
+form.style.height = "350px";
+form.style.display = "flex";
+form.style.flexDirection = "column";
+form.style.justifyContent = "center";
+form.style.margin = "100px auto";
+form.style.padding = "0 50px";
+form.style.color = "#F0F7EE";
+form.style.backgroundColor = "black";
+form.style.border = "1px solid #EE3A57";
 
 labels.forEach((label) => (label.style.margin = "10px 0"));
 inputs.forEach((input) => {
@@ -34,16 +34,16 @@ buttonSubmit.style.marginTop = "40px";
 buttonSubmit.style.borderRadius = "5px";
 buttonSubmit.style.height = "40px";
 
-formulario.addEventListener("submit", (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
-  let imagem = document.createElement("img");
-  imagem.setAttribute("src", "contato.png");
-  imagem.style.width = "950px";
-  imagem.style.height = "350px";
-  imagem.style.margin = "auto";
-  div.appendChild(imagem);
-  let texto = document.createElement("p");
-  texto.innerHTML = "Formulário de contato com HTML e CSS";
-  div.appendChild(texto);
-  texto.style.margin = "20px auto";
+  let image = document.createElement("img");
+  image.setAttribute("src", "contato.png");
+  image.style.width = "950px";
+  image.style.height = "350px";
+  image.style.margin = "auto";
+  div.appendChild(image);
+  let text = document.createElement("p");
+  text.innerHTML = "Formulário de contato com HTML e CSS";
+  div.appendChild(text);
+  text.style.margin = "20px auto";
 });
