@@ -10,8 +10,18 @@
 - ETAPA3: Crie uma variável para armazenar cada um dos seus elementos HTML no javascript;
 - ETAPA4: Adicione uma `classe` para o seu elemento de parágrafo usando o DOM;
 - ETAPA5: Crie ou modifique o `estilo` da sua imagem usando o DOM;     
-- ETAPA6: Modifique o valor do atributo `href` do seu link utilizando os DOM;
+- ETAPA6: Modifique o valor do atributo `href` do seu link utilizando o DOM;
 - ETAPA7: Crie um novo elemento HTML utilizando o DOM e o adicione ao seu HTML. 
+
+//criar 2 tags: h1, h2/ article
+//dentro article -> 1 p, img, a
+//criar um documento js pra armazenar essas variaveis
+ex. const meuArtigo = document.querySelector(".article")
+ex. const paragrafo = ...
+paragrafo.setAttribute('class', 'meuParagrafo')
+... imagem.style.border = '1px, solid, red'
+createElement(p)
+
 
 #### 2. Utilizando o mesmo HTML do exercício 1, diga(`mostrando com o console.log() ou console.dir()`): 
 - Quem é o elemento `pai/mãe` do seu artigo? 

@@ -1,0 +1,24 @@
+
+section {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.beyonce--img {
+    width: 300px;
+    margin: 50px;       
+}
+#paragrafo {
+    width: 50%;
+    color: blue; 
+    text-align: center;
+}
+.classeDoMeuJava {
+    margin: 150px; 
+    transition: 0.5s;
+}
+.classeDoMeuJava:hover {
+    cursor: pointer; 
+    background-color: #fff; 
+}
