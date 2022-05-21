@@ -22,9 +22,12 @@ partePrincipal.style.padding = "0 100px";
 const paragrafo = document.querySelector("p");
 paragrafo.setAttribute("class", "paragrafo");
 
+const initialWidth = "60%";
+const largerWidth = "80%";
 const imagemAnne = document.querySelector("#imagem");
 imagemAnne.style.display = "block";
 imagemAnne.style.margin = "20px auto";
+imagemAnne.style.width = initialWidth;
 
 const buttonTrailer = document.querySelector("#button-trailer");
 buttonTrailer.style.border = "solid 1px";
@@ -54,3 +57,14 @@ const filhes = artigo.children;
 console.log("Os filhes do artigo são:", filhes);
 const irmao = paragrafo.nextElementSibling.nodeName;
 console.log("O próximo irmão do parágrafo é um elemento", irmao);
+
+// Exercicio 3
+imagemAnne.addEventListener("mouseenter", () => {
+  const imagem = document.querySelector("#imagem");
+  imagem.style.width = largerWidth;
+});
+
+imagemAnne.addEventListener("mouseleave", () => {
+  const imagem = document.querySelector("#imagem");
+  imagem.style.width = initialWidth;
+});
