@@ -32,22 +32,24 @@ inputPassword.style.border = 'none';
 inputPassword.style.padding = '10px'
 inputPassword.style.borderRadius = '5rem';
 
-const message = document.createElement('p');
-message.innerText = 'Sem permissão!'
-
-  
-
 
 submitBtn.addEventListener('click', (evento) => {
     evento.preventDefault();
 
-    const userName = 'laraof';
-const passWord = 'wearebulletproof';
+    const valorInput1 = inputUser.value;
+    const valorInput2 = inputPassword.value;
 
-    if (userName === inputUser && passWord === inputPassword) {
-        alert("Olá, Lara! Vamos ver os lindos do BTS?");
+    const userName = 'laraof';
+    const passWord = 'wearebulletproof';
+
+    const printPhrase = document.createElement('p');
+
+    if (valorInput1 == userName && valorInput2 == passWord) {
+        printPhrase.innerText = "Olá, Lara! Vamos ver os lindos do BTS?";
+        document.body.append(printPhrase);
       } else {
-        alert(message);
+        printPhrase.innerTexte = "Sem permissão!";  
+        document.body.append(printPhrase);
       }
 });
 
