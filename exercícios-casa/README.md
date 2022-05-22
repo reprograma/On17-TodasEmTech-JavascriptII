@@ -13,6 +13,8 @@
 - ETAPA6: Modifique o valor do atributo `href` do seu link utilizando os DOM;
 - ETAPA7: Crie um novo elemento HTML utilizando o DOM e o adicione ao seu HTML. 
 
+//
+
 #### 2. Utilizando o mesmo HTML do exercício 1, diga(`mostrando com o console.log() ou console.dir()`): 
 - Quem é o elemento `pai/mãe` do seu artigo? 
 - Quem são os elementos `filhes` do seu artigo? 

@@ -21,3 +21,5 @@ Crie uma página que contenha o form com evento de submit.
 - Nessa página, separe seu arquivo javascript do seu html. 
 - Todo elemento de estilo que existir nessa oagina deverá ser criado através do DOM
 - Assim que o evento de submit for acionado, faça aparecer uma foto e um elemento de texto com a descrição dessa foto
+
+
