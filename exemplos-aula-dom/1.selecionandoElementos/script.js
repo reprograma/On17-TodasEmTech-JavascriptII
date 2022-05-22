@@ -43,24 +43,37 @@ const botaoSubmit = document.querySelector("#botao-submit");
 });*/
 
 const form = document.querySelector(".primeiro-form");
-form.addEventListener("submit", (evento) => {
-  evento.preventDefault();
-  const valorInput1 = input1.value;
-  const valorInput2 = input2.value;
-  const segundaDiv = document.querySelector(".segunda-div");
-  const paragrafoNovo = document.createElement("p");
-  paragrafoNovo.innerText = `a Luísa Sonza é ${valorInput1} e ${valorInput2}`;
-  //segundaDiv.appendChild(paragrafoNovo);
-  document.body.append(paragrafoNovo);
-});
+ form.addEventListener("submit", (evento)=>{
+    evento.preventDefault();
+    const valorInput1 = input1.value;
+    const valorInput2 = input2.value;
+    const segundaDiv = document.querySelector(".segunda-div");
+    const paragrafoNovo = document.createElement('p');
+    paragrafoNovo.innerText = `A Luísa Sonza é ${valorInput1} e ${valorInput2}`;
+    //segundaDiv.appendChild(paragrafoNovo);
+    document.body.append(paragrafoNovo);
+    
+ });
 
-function eventoImagemDiminui() {
-  imagemLuisaSonza.style.width = "40px";
-}
+ 
+ function eventoImagemDiminui(){
+     imagemLuisaSonza.style.width = "40px";
+    };
+    
+    function eventoImagemAumenta(){
+        imagemLuisaSonza.style.width = "500px";
+    };
+    
+    imagemLuisaSonza.addEventListener("mouseenter", eventoImagemDiminui);
+    imagemLuisaSonza.addEventListener("mouseleave", eventoImagemAumenta);
+    
+    const inputRoxo = document.querySelector(".fica-roxo");
+    inputRoxo.classList.remove("fica-roxo");
+    inputRoxo.classList.add("muda-fonte");
 
-function eventoImagemAumenta() {
-  imagemLuisaSonza.style.width = "500px";
-}
 
-imagemLuisaSonza.addEventListener("mouseenter", eventoImagemDiminui);
-imagemLuisaSonza.addEventListener("mouseleave", eventoImagemAumenta);
+
+
+
+
+
