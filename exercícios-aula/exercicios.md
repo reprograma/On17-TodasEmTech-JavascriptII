@@ -15,7 +15,7 @@ const div2 = div.style.height = "300px"
 
 ### EXC. 2
 Crie uma página web com 5 elementos diferentes à sua escolha (h1, p, div, form, etc).
-- Escolha 2 elementos que um que será removido e um adicionado pelo DOM.
+- Escolha 2 elementos que um que será removido e um adicionado pelo sDOM.
 - Adicione algum evento ao 3o elemento. Esse evento deverá ser visível ao usuário.
 - o 5o elemento deverá ser filho do 4o, utilize algum método relacional do DOM para alterar algum atributo CSS desse filho e desse pai.
 
