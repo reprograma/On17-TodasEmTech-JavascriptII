@@ -48,7 +48,7 @@ function eventoImagemDiminui(){
    imagemArtigo.addEventListener("mouseleave", eventoImagemAumenta);
 
 
-linkArtigo.setAttribute("href", "https://www.programaria.org/especiais/mulheres-tecnologia/");
+linkArtigo.setAttribute("href", "https://www.youtube.com/watch?v=bgBPFPOXbrU");
 
 //criar novo elemento
 const novoElemnto = document.querySelector(".elemento")
