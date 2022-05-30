@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Login</title>
+  </head>
+  <body>
+    <form id="form_id" method="post" name="myform">
+      <h3>Inscrições para o Hackaton 2022 - SP</h3>
+      <label>Nome :</label>
+      <input type="text" name="username" id="username" />
+      <label>Senha :</label>
+      <input type="password" name="password" id="password" />
+      <input type="button" value="Entrar" id="submit" onclick="validate()" />
+    </form>
+  </body>
+  <script>
+    const nome = document.querySelector("#username");
+    const senha = document.querySelector("#password");
+    const botaoLogin = document.querySelector("#submit");
+
+    const paragrafo = document.createElement("p");
+    paragrafo.setAttribute("id", "paragrafo");
+    paragrafo.innerText = "Sem permissão";
+    document.body.appendChild(paragrafo);
+
+    function validate() {
+      const paragrafo01 = document.querySelector("#paragrafo");
+      console.log(paragrafo01, "paragrafo");
+      paragrafo01.innerText = `Olá ${nome.value}`;
+    }
+  </script>
+</html>
