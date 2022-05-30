@@ -9,7 +9,7 @@
 - ETAPA3: Crie uma variável para armazenar cada um dos seus elementos HTML no javascript;
 - ETAPA4: Adicione uma `classe` para o seu elemento de parágrafo usando o DOM;
 - ETAPA5: Crie ou modifique o `estilo` da sua imagem usando o DOM;     
-- ETAPA6: Modifique o valor do atributo `href` do seu link utilizando os DOM;
+- ETAPA6: Modifique o valor do atributo `href` do seu link utilizando o DOM;
 - ETAPA7: Crie um novo elemento HTML utilizando o DOM e o adicione ao seu HTML. 
 
 

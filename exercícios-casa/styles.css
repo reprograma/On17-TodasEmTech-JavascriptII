@@ -1,0 +1,25 @@
+.artigo-standup {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.items {
+  display: flex;
+  flex: 1;
+  margin: 50px;
+  align-items: center;
+}
+
+.paragrafoHeaderPrincipal {
+  background-color: rosybrown;
+}
+/* 
+.imgHeaderPrincipal:hover {
+  transform: scale(1.05);
+} */
+/* 
+.maxSize {
+  height: 70%;
+  width: 70%;
+} */
