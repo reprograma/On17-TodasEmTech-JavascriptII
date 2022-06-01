@@ -7,6 +7,9 @@ Faça uma tag script no fim do body selecione todos os elementos do html e guard
     - mude o estilo das divs para que cada uma seja uma caixa com uma cor diferente
     - adicione pelo javascript uma classe para o paragrafo
 
+a div vazia não tem nenhuma dimensão, para isso utilizamos a seguente propriedades wudth e heigt
+div.style.width = "300px", div.style.height = "300px"
+
 
 ### EXC. 2
 Crie uma página web com 5 elementos diferentes à sua escolha (h1, p, div, form, etc).

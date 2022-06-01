@@ -13,10 +13,21 @@
 - ETAPA6: Modifique o valor do atributo `href` do seu link utilizando os DOM;
 - ETAPA7: Crie um novo elemento HTML utilizando o DOM e o adicione ao seu HTML. 
 
+*criar 2 tags h1,h2, article*
+//dentro do article -> 1p, img, a
+// criar variavel para armanezamento, ex:
+const MeuArtigo = docuement.querySelector("classe")
+ex. const paragrafo = ...
+paragrafo.setAttribite('classe','meuParagrafo')
+... imagem.style.border = '1x, solid,red'
+creatElement
+
 #### 2. Utilizando o mesmo HTML do exercício 1, diga(`mostrando com o console.log() ou console.dir()`): 
 - Quem é o elemento `pai/mãe` do seu artigo? 
 - Quem são os elementos `filhes` do seu artigo? 
 - Qual elemento é o `próximo irmão` do elemento parágrafo?
+
+
 
 #### 3. Utilizando o mesmo HTML do exercício 1, faça uma `função de evento` que aumente o tamanho da minha imagem quando eu passar o mouse por cima dela e que quando eu retirar o meu mouse de cima da imagem ela retorne ao tamanho original;
 
