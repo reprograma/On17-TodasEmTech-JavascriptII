@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,55 +7,39 @@
     <title>Aprendendo DOM com Luísa Sonza</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <script src="./script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
     <header id="header1">
-        <h1 class="titulo-principal">Senta-do-naaaaa, fala que é só sentimento masssssssssss</h1>
-
+        <h1 class="titulo-principal">Sen-ta-do-naaaaaaaa, fala que é sem sentimento, massssss.....</h1>
     </header>
     <section id="primeira-section">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ducimus, consequuntur numquam asperiores iste velit optio, excepturi voluptatem fugit amet itaque saepe quo, dignissimos sapiente accusantium nemo mollitia eum doloribus?
-            Eos sint nam, odio aliquid nemo dicta libero magnam quas excepturi aliquam repellendus, doloremque perspiciatis. Enim, nesciunt corporis. Consequatur iusto possimus quibusdam animi officia facere aliquam non esse doloremque neque.
-            Ea sed sit adipisci asperiores, maxime temporibus aliquid voluptatibus, a cupiditate dignissimos quaerat natus cumque perferendis eos architecto consequuntur repellendus nemo aperiam nulla esse in porro nesciunt accusamus. Eum, autem?
-        </p>
-        </section>
-        <div class="primeira-div">
-        </div> 
-        <form class="primeiro-form">
-            <label class="fica-roxo">Luiza Sonza me lembra:</label>
-            <input id="input1" type="text"/>
-            <label>E isso:</label>
-            <input id="input2" type="text"/>
-            <button onclick=criaDivVermelha() id="botao-submit" type="submit">Enviar!</button>
-        </form>     
-        <div class="segunda-div">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi unde ducimus 
+        consequuntur reprehenderit dicta enim nam officiis quas? Commodi ullam id incidunt 
+        exercitationem? Veniam praesentium in ut doloribus ex dolorum.
+        Velit impedit odio provident maiores dolores id, eius voluptas nulla enim inventore nobis
+        veritatis maxime et similique, quae accusamus eum officia obcaecati facere, alias quam ducimus 
+        sit quo? Quod, consectetur.
+        Eum ipsam libero quis quaerat, nemo quisquam, facilis illum, dolorem voluptatibus ut saepe aut 
+        quae eius necessitatibus vero animi et nisi rerum sequi. Omnis at, in saepe vitae vero illum!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eveniet nostrum explicabo accusamus 
+        in nobis corporis a earum, adipisci consequuntur, provident ex delectus iure, amet neque magni 
+        recusandae modi quis!</p>
+    </section>
+    <div class="primeira-div">
+    </div>
+    <form class="primeiro-form">
+        <label>Luisa Sonza me lembra:</label>
+        <input id="input1" type="text"/>
+        <!-- value="Linda" -->
+        <label>E mais isso:</label>
+        <input id="input2" type="text"/>
+        <!-- value="Maravilhosannn" -->
+        <button id="botao-submit" type="submit">Enviar!</button>
+    </form>
+    <div class="segunda-div">
 
-        </div>
-        <script>
-            const criaDivVermelha = () => {
-                const novaDiv = document.createElement("div");
-                novaDiv.style.width = "300px";
-                novaDiv.style.height = "300px";
-                novaDiv.style.backgroundColor = "red";
-                document.body.append(novaDiv);
-
-            }
-
-        
-        </script>
-        <style>
-            .fica-roxo{
-                background-color: blueviolet;
-            }
-
-            .muda-fonte{
-                font-size: 50px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            }
-        </style>
-    </body>
+    </div>
+    <script src="./script.js"></script>
+</body>
 </html>
