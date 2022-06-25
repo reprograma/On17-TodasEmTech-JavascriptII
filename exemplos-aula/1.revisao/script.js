@@ -26,7 +26,12 @@ const alunasOn17 = [
 
 
 //filtrar apenas as alunas que sejam maiores de 25 anos
-alunasOn17.filter(banana => banana >25);
+
+
+alunasOn17.filter(elementoArray => elementoArray.idade >25);
+
+const alunasMaiores25 = elementoArray => elementoArray.idade >25;
+
 
 //mapear cada aluna, adicionando 1 ano de idade para cada uma delas
 const alunasOn17idade2023 = alunasOn17.map(item => item.idade+1);
